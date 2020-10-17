@@ -9,6 +9,9 @@ pip3 install -r requirements.txt
 
 ## Usage
 1. Import the ExMatchina class
+```Python
+from ExMatchina import ExMatchina
+```
 2. Load ExMatchina with a particular TensorFlow model + example prototypes (e.g. training data)
 
 ```Python
@@ -16,7 +19,8 @@ pip3 install -r requirements.txt
 # model: the model of interest
 training_data = np.load('./X_train.npy')
 model = load_model('./model')
-# selected_layer: the layer to use in identifying examples. We recommend the layer immediately following the last convolution (e.g. flatten layer)
+# selected_layer: the layer to use in identifying examples.
+# We recommend the layer immediately following the last convolution (e.g. flatten layer)
 selected_layer = "Flatten_1"
 
 exm = ExMatchina(model=model, layer=selected_layer, examples=training_data)
