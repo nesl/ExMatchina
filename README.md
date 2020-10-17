@@ -35,3 +35,15 @@ test_data = np.load('./X_test.npy')
 test_input = test_data[0]
 (examples, indices) = exm.return_nearest_examples(test_input)
 ```
+
+## Examples
+The `Examples/` folder contains the tutorial in python notebooks on using Exmatchina for different types of input data
+
+### Data
+Here's the Google Drive Link to the preprocessed data:
+https://drive.google.com/drive/folders/1ZRWIeUHxGbKpqWkJ2HpiSLtmUyllfThf?usp=sharing
+
+Download each of the folders there and place them in `data/` 
+
+### Trained Models
+Inside the `trained_models/` folder, there are the pretrained models, named as `[domain].hdf5` for each of the domains: image, text, ECG.
