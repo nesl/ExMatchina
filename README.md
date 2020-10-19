@@ -1,8 +1,8 @@
 # ExMatchina
-A Deep Neural Network explanation-by-example library for generating meaningful explanations. Used in our [Explainability Study](https://github.com/nesl/Explainability-Study).
+A Deep Neural Network explanation-by-example library for generating meaningful explanations. Used in our [Explainability Study](https://github.com/nesl/Explainability-Study)
 
 ## Prerequisites
-Install the required Python packages.
+Install the required Python packages
 ```Python
 pip3 install -r requirements.txt
 ```
@@ -40,10 +40,9 @@ test_input = test_data[0]
 The `Examples/` folder contains the tutorial in python notebooks on using Exmatchina for different types of input data
 
 ### Data
-Here's the Google Drive Link to the preprocessed data:
-https://drive.google.com/drive/folders/1ZRWIeUHxGbKpqWkJ2HpiSLtmUyllfThf?usp=sharing
+Here's the Google Drive Link to the preprocessed data: [Link](https://drive.google.com/drive/folders/1ZRWIeUHxGbKpqWkJ2HpiSLtmUyllfThf?usp=sharing)
 
-Download each of the folders there and place them in `Examples/data/` 
+Download each of the folders there and place them in `Examples/data/`
 
 ### Trained Models
-Inside the `trained_models/` folder, there are the pretrained models, named as `[domain].hdf5` for each of the domains: image, text, ECG.
+Inside the `trained_models/` folder, there are the pretrained models, named as `[domain].hdf5` for each of the domains: image, text, ECG
