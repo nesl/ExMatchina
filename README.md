@@ -46,3 +46,15 @@ Download each of the folders there and place them in `Examples/data/`
 
 ### Trained Models
 Inside the `trained_models/` folder, there are the pretrained models, named as `[domain].hdf5` for each of the domains: image, text, ECG
+
+## BibTex
+
+If you find this code and results useful in your research, please cite:
+
+	@article{jeyakumar2020can,
+	  title={How Can I Explain This to You? An Empirical Study of Deep Neural Network Explanation Methods},
+	  author={Jeyakumar, Jeya Vikranth and Noor, Joseph and Cheng, Yu-Hsi and Garcia, Luis and Srivastava, Mani},
+	  journal={Advances in Neural Information Processing Systems},
+	  volume={33},
+	  year={2020}
+	}
